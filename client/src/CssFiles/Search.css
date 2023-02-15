@@ -1,0 +1,46 @@
+#search_user{
+    transition-duration: 0.4s;
+    }
+  
+  #search_user:hover{
+  transform: scale(1.1);
+  }
+
+  .ALLSEARCH{
+    background: #63ade9;
+    height: 100vh;
+  }
+  
+  #search_user{
+    transition-duration: 0.4s;
+    }
+  
+  #search_user:hover{
+  transform: scale(1.1);
+  }
+  
+  #search_button{
+    transition-duration: 0.4s;
+  }
+  
+  #search_button:hover{
+    transform: scale(1.1);
+  }
+
+  @keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 100%, 0);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  
+  .animation-fade-in-up {
+    animation: fadeInUp 1s ease-out both;
+  }
+  
+  
